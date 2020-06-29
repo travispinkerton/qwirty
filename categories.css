@@ -1,0 +1,102 @@
+.categories {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    flex-shrink: 2;
+    flex-basis: 256px;
+    text-transform: capitalize;
+    letter-spacing: .35rem;
+    background-image: url(https://pbs.twimg.com/media/DKK-qI2UMAALvCP.jpg);
+    
+}
+
+a:link {
+    color: white;
+}
+
+
+
+nav {
+    color: white;
+}
+
+#nav-categories {
+    display: flex;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    margin-top: 12px;
+    margin-left: 4px;
+    /* justify-content: space-between; */
+
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url(https://pbs.twimg.com/media/DKK-qI2UMAALvCP.jpg);
+   
+    
+
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    
+    
+
+}
+
+
+
+@media (max-width: 768px) {
+   
+    
+    main {
+    
+        display: flex;
+        flex-direction: row;
+        color: black;
+        letter-spacing: none;
+        
+
+        
+    }  
+    .categories {
+        
+        line-height: 53px;
+        padding-top: 40px;
+
+        
+    } 
+    
+    a:hover {
+        transform-style: bolder;
+        box-shadow: 0 2px 7px -2px black;
+        color: sandybrown;
+        
+    }
+    
+
+    
+ 
+}
+
+
+@media (min-width: 768px) {
+
+    #nav-categories {
+
+        line-height: 45px;
+        padding-top: 30px;
+
+    }
+
+    a:hover {
+
+        transform-style: none;
+        box-shadow: 0 0px 0px 0px black;
+        color: darkslategray
+
+    }
+    
+}

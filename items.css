@@ -1,0 +1,127 @@
+* {
+    
+    margin-right: auto;
+    padding-right: 1rem;
+}
+.items {
+    display: flex;
+    /* flex-basis: 256px; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    /* align-items: stretch; */
+    /* flex-shrink: 2;
+    margin-right: auto;
+    margin-right: 15px; */
+    
+}
+
+
+.item {
+    
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-basis: 80px;
+    flex-wrap: wrap;
+    margin: 3px;
+
+
+    
+    
+    
+    
+    flex-grow: 1;
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    
+}
+
+.item-name {
+    background-color: darkturquoise;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    color: midnightblue;
+    text-transform: uppercase;
+    border: 1.5px solid black;
+    border-right: 1.5px solid black;
+
+}
+
+.item-image {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid black
+}
+.fact-line {
+    background-color: darkslateblue;
+    color: white;
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.item-description {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2px;
+    font-weight: 525;
+    font-variant: small-caps;
+    font-size: 15px;
+    color:white;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://www.desktopbackground.org/p/2010/07/05/43365_hd-blue-texture-wallpapers_1600x1067_h.jpg);
+}
+
+
+.add-item {
+    background-color: sandybrown;
+    color: midnightblue;
+    border-radius: 35%;
+    
+}
+
+@media (max-width: 768px) {
+
+    .add-item {
+        display: inline-flex;
+        
+    }
+    .item {
+        font-size: 14px;
+        flex-basis: 50%;
+        margin: 1.5px
+    }
+
+    .items {
+        display: flex;
+        flex-direction: row;
+        grid-column: auto;
+        height: max-content;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        flex-basis: 20px;
+    }
+
+    .item-name {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .item {
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+   
+
+  
+}

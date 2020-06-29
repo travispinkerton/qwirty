@@ -1,0 +1,149 @@
+/* * {
+    color: black;
+    
+} */
+
+footer {
+    display: block;
+    float: inline-start;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    background-image: url(https://media.istockphoto.com/photos/multicolored-abstract-background-illustration-watercolor-hand-for-picture-id1133653106?k=6&m=1133653106&s=612x612&w=0&h=AXANuxvlPEITRJLfrKUcsVTiqi-7LoPObr_Yhcy23T4=);
+    
+    padding: 3px;
+    font-family: 'Dosis', sans-serif;
+    
+    
+    
+    
+}
+
+footer a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+    padding-right: 13px;
+    padding-left: 3px;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    font-size: 12.5px;
+    letter-spacing: .5px;
+}
+
+.first {
+    margin-right: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    
+}
+
+.second {
+    margin-right: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.third {
+    margin-right: 0rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+h2 {
+    color: white;
+    border-bottom: white;
+    padding: 1px;
+    /* margin-bottom: 3px; */
+    font-size: 15px;
+    border-top: 5px double white;
+    border-spacing: 3px;
+    border-top-left-radius: 30%;
+    border-left: 4px dotted white;
+    padding-left: 2px;
+    
+}
+
+/* a:hover {
+    transform-style: bolder;
+    box-shadow: 1 2px 7px -2px black;
+    color: sandybrown;
+    border-bottom: 1px white;
+    margin-bottom: 9px;
+} */
+
+#links {
+    color: white;
+    text-decoration: none;
+    font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+    
+    footer {
+        display: block;
+        
+        /* flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        /* margin: 5px 5px 10px; */
+        /* flex-grow: 1; */ 
+        
+        
+        
+        /* align-items: flex-start;
+        justify-items: flex-start; */
+        line-height: 19px;
+        max-height: 120px;
+        max-width: 100%;
+        
+
+    }
+    h2 {
+       
+        letter-spacing: 4px;
+        font-size: 16px;
+        padding-top: 2px;
+        border-top: 1px dashed black;
+
+    }
+
+    footer  {
+        
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: lighter;
+        line-height: 12.5px;
+        font-size: 12px;
+        padding-top: 1px;
+        
+    }
+
+    
+    
+}
+
+@media (min-width: 768px) {
+    footer a {
+
+        font-size: 20px;
+        margin-right: 25px;
+        margin-left: 7px;
+        /* line-height: 1px; */
+        padding-left: 20px;
+        
+    }
+
+    h2 {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin-bottom: 2px;
+        padding-left: 6px;
+        margin-left: 3px;
+
+    }
+
+    
+}
